@@ -1,0 +1,15 @@
+body{
+    width: 450px;
+    margin:0 auto; 
+    color: #ffffff;
+    padding-top: 100px;
+    background-image: url(../images/1.jpg);
+    background-repeat: no-repeat;
+}
+p{
+    text-indent: 2em;
+    text-align: justify;
+}
+h1,h5{
+    text-align: center;
+}
