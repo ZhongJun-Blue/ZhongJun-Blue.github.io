@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    background-color: #f5f5f5;
+    padding: 15px;
+}
+
+table{
+    background-color: #fff;
+    width: 800px;
+    margin: 0 auto;
+}
+
+p{
+    text-indent: 2px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+tr{
+    height: 50px;
+    
+}
+
+td{
+    padding-left: 40px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.new_button{
+    width: 90px;
+    background-color:#99ccff;
+    color: #fff;
+    font-weight: bold;
+    line-height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin: 20px 30px 30px 30px;
+    text-align: center;
+
+}
+
+.new_button:hover{
+    background-color: #6699cc;
+    text-align: center;
+}
+
+
