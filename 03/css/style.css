@@ -11,9 +11,10 @@ table{
 }
 
 p{
-    text-indent: 2px;
+    text-indent: 2em;
     line-height: 30px;
     text-align: justify;
+    padding-right: 40px;
 }
 
 tr{
