@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>泰康之家</title>
+    <link rel="stylesheet" href="../05/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+<script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+</head>
+<body>
+    <div class="container"></div>
+    <div class="header">
+        <a href="">
+            <img class="logo" src="../05/images/logo.png" alt="">
+        </a>
+        <ul class="nav">
+            <li><a>首页</a></li>
+            <li><a>帮助</a></li>
+            <li><a>客服中心</a></li>
+            <li><a>个人中心</a></li>
+            <li><a>企业信息</a></li>
+            <li><a>关于我们</a></li>
+        </ul>
+    </div>
+    <div class="content">
+    <div class="banner">
+        <div class="banner-text">
+            <h1>泰康之家，我们的大家</h1>
+            <p>已悠然之态，尊享修然生活；</p>
+            <p>以华丽之容，彰显独特魅力</p>
+            <button>进入官网</button>
+            <ul class="fuction">
+                <li>页面未响应</li>
+                <li>给我们的建议</li>
+            </ul>
+        </div>
+        <div class="banner-img">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="../05/images/banner .1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="../05/images/banner.2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="../05/images/banner.3.jpg" alt=""></div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+                
+                <!-- 如果需要导航按钮 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                
+                <!-- 如果需要滚动条 -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+          
+        </div>
+    </div>
+    <div class="info">
+        <div class="download">
+        <ul>
+            <li>
+        <div class="download-web"></div>
+            <h3>网页版</h3>
+            <p>在浏览器中使用</p>
+            <a href="">了解更多</a>
+        </li>
+        <li>
+        <div class="download-mac"></div>
+            <h3>Mac版</h3>
+            <p>极致简洁，迅捷沟通</p>
+            <a href="">了解更多</a>
+        </li>
+        <li>
+        <div class="download-win"></div>
+            <h3>Windows版</h3>
+            <p>让沟通更方便</p>
+            <a href="">了解更多</a>
+        </li>
+        </ul>
+    </div>
+    <div class="news">
+        <h3>最新消息</h3>
+        <ul>
+            <li><span>2020-01-31</span><a>共度幸福泰康年！防范疫情，守护长辈，泰康之家在行动</a></li>
+            <li><span>2020-01-16</span><a>泰康之家养老社区第19城落地郑州，全国布局按下“快进键”</a></li>
+            <li><span>2019-12-31</span><a> 再下重庆、南京两城 泰康之家18城领跑中国养老市场</a></li>
+            <li><span>2019-12-25</span><a>第16城！泰康之家养老社区落户深圳，大健康版图再扩张</a></li>
+            <li><span>2019-12-20</span><a>泰康第六家养老社区开业 实现东西南北中连锁运营</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="footer">
+        <div class="footer-copyright">
+            <p>关于泰康&nbsp; |&nbsp; 服务条款&nbsp; | &nbsp;使用规范&nbsp; | &nbsp;客服中心 &nbsp;| &nbsp;隐私保护指引</p>
+        </div>
+        <div class="language">
+            <p>简体中文&nbsp; |&nbsp;繁体中文&nbsp; |&nbsp;English</p>
+        </div>
+    </div>
+    ...
+<script>        
+  var mySwiper = new Swiper ('.swiper-container', {
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    
+    // 如果需要前进后退按钮
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })        
+  </script>
+</body>
+</html>
