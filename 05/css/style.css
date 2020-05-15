@@ -1,7 +1,4 @@
-.swiper-container {
-    width: 600px;
-    height: 300px;
-}  
+
 body{
     margin: 0;
     padding: 0;
@@ -84,7 +81,7 @@ body{
     color: #888;
     font-size: 18px;
 }
-.banner button{
+.btu1{
     padding: 10px 50px;
     border: none;
     background-color: #609700;
@@ -95,7 +92,65 @@ body{
     letter-spacing: 5px;
 }
 .banner-img{
-    padding-right: 480px;
+    padding-left: 820px;
+}
+.warp{
+    width: 490px;
+    height: 280px;
+    
+}
+.list{
+    list-style-type: none;
+    width:  490px;
+    height: 280px;
+}
+.item{
+    width: 490px;
+    height: 280px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.item.active{
+    z-index: 10;
+    opacity: 1;
+}
+.item:nth-child(1){
+    background-image: url(../images/banner\ .1.jpg);
+    background-repeat: no-repeat;
+}
+.item:nth-child(2){
+    background-image: url(../images/banner.2.jpg);
+    background-repeat: no-repeat;
+}
+.item:nth-child(3){
+    background-image: url(../images/banner.3.jpg);
+    background-repeat: no-repeat;
+}
+.btn{
+    width: 30px;
+    height: 60px;
+    top: 160px;
+    position:absolute;
+    background-color:  #609700;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+#goPre{
+    right: 1040x;
+    z-index: 100;
+}
+#goNext{
+    right: 514px;
+    z-index: 100;
+}
+.item.active{
+    z-index: 10;
+    opacity: 1;
 }
 .fuction{
     display: block;
@@ -222,7 +277,7 @@ body{
         
     }
     .news{
-        padding: 0;
+        padding: 0;····
     }
     .news h3{
         text-align: center;

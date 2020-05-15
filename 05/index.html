@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>泰康之家</title>
     <link rel="stylesheet" href="../05/css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
-<script src="https://unpkg.com/swiper/js/swiper.min.js"> </script>
+   
 </head>
 <body>
     <div class="container"></div>
@@ -29,28 +28,25 @@
             <h1>泰康之家，我们的大家</h1>
             <p>已悠然之态，尊享修然生活；</p>
             <p>以华丽之容，彰显独特魅力</p>
-            <button>进入官网</button>
+            <button class="btu1">进入官网</button>
             <ul class="fuction">
                 <li>页面未响应</li>
                 <li>给我们的建议</li>
             </ul>
         </div>
         <div class="banner-img">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="../05/images/banner .1.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="../05/images/banner.2.jpg" alt=""></div>
-                    <div class="swiper-slide"><img src="../05/images/banner.3.jpg" alt=""></div>
+            <div class="warp">
+                <ul class="list">
+                    <li class="item active"></li>
+                    <li class="item"></li>
+                    <li class="item"></li>
+                    
+                </ul>
                 </div>
-                <!-- 如果需要分页器 -->
-                <div class="swiper-pagination"></div>
+           
+                <button class="btn" id="goPre"><</button>
+                <button class="btn" id="goNext">></button>
                 
-                <!-- 如果需要导航按钮 -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-                
-                <!-- 如果需要滚动条 -->
-                <div class="swiper-scrollbar"></div>
             </div>
           
         </div>
@@ -97,27 +93,6 @@
             <p>简体中文&nbsp; |&nbsp;繁体中文&nbsp; |&nbsp;English</p>
         </div>
     </div>
-    ...
-<script>        
-  var mySwiper = new Swiper ('.swiper-container', {
-    loop: true, // 循环模式选项
-    
-    // 如果需要分页器
-    pagination: {
-      el: '.swiper-pagination',
-    },
-    
-    // 如果需要前进后退按钮
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    
-    // 如果需要滚动条
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-  })        
-  </script>
+    <script src="../05/js.js/js.js"></script>   
 </body>
 </html>
